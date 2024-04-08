@@ -197,6 +197,9 @@ header{
 	background: #8500D1;
 	transition: 0.2s;
 }
+.biobtn:hover{
+	background: #620497;
+}
 
 
 
