@@ -9,8 +9,11 @@ header{
 	height: 50vh;
 	background: #f5f5f5;
 }
+.bglb{
+	background: #f5f5f5;
+}
 .bgb{
-	background: #18191f;	
+	background: #18191f;
 }
 .button{
 	margin-top: 170px;	
@@ -104,12 +107,27 @@ header{
 		color: #fff;
 	}
 }
-
+.back-btn{
+	text-align: center;
+	padding-top: 110px;
+	input{
+		font-size: 30px;
+		color: #fff;
+		border: 0;
+		border-radius: 7px;
+		padding: 10px 60px;
+		background: #8500D1;
+		transition: 0.2s;
+	}
+	input:hover{
+		background: #620497;
+	}
+}
 .backbtn{
 	text-align: center;
 	text-decoration: none;
 	h2{
-		padding-top: 200px;
+		padding-top: 160px;
 		font-size: 40px;
 		color: #8500D1;
 	}
@@ -131,8 +149,41 @@ header{
 		height: 280px;
 		transition: 0.2s;
 	}
-	img:hover{
+	/*img:hover{
 		transform: scale(1.8)
+	}*/
+}
+
+.menu{
+	h2{
+		padding-top: 26px;
+		text-align: center;
+		font-size: 55px;
+		font-weight: bold;
+	}
+}
+.media{
+	margin-top: 50px;
+}
+.medialogo{
+	img{
+		display: block;
+		position: absolute;
+		/*object-fit: cover;*/
+		height: 100px;
+		width: 100px;
+		border-radius: 40px;
+	}
+}
+.mediatext{
+	position: relative;
+	top: 15px;
+	h3{
+		margin-left: 120px;
+	}
+	p{
+		margin-left: 120px;
+		font-size: 20px;
 	}
 }
 
@@ -150,6 +201,68 @@ header{
 	.college{
 		display: none;
 	}
+}
+
+/*Анимация заголовка меню*/
+span[class^="l"] {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.l1 {
+  animation: 2.4s letter ease-in-out infinite;
+}
+
+.l2 {
+  animation: 2.4s letter ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.l3 {
+  animation: 2.4s letter ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+.l4 {
+  animation: 2.4s letter ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+.l5 {
+  animation: 2.4s letter ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+.l6 {
+  animation: 2.4s letter ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+.l7 {
+  animation: 2.4s letter ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.l8 {
+  animation: 2.4s letter ease-in-out infinite;
+}
+@keyframes letter {
+  0% { 
+    font-size: 34px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  50% { 
+    font-size: 48px;
+    color: #eee;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  100% {
+    font-size: 34px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /*Анимация заголовка*/
