@@ -110,7 +110,8 @@ header{
 .back-btn{
 	text-align: center;
 	padding-top: 110px;
-	input{
+}
+.back-btn input{
 		font-size: 30px;
 		color: #fff;
 		border: 0;
@@ -118,12 +119,11 @@ header{
 		padding: 10px 60px;
 		background: #8500D1;
 		transition: 0.2s;
-	}
-	input:hover{
-		background: #620497;
-	}
 }
-.backbtn{
+.back-btn input:hover{
+		background: #620497;
+}
+/*.backbtn{
 	text-align: center;
 	text-decoration: none;
 	h2{
@@ -131,7 +131,7 @@ header{
 		font-size: 40px;
 		color: #8500D1;
 	}
-}
+}*/
 
 .collage{
 	display: inline-block;
@@ -186,6 +186,120 @@ header{
 		font-size: 20px;
 	}
 }
+.biobtn{
+	float: right;
+	transform: translateY(-70px);
+	font-size: 20px;
+	color: #fff;
+	border: 0;
+	border-radius: 7px;
+	padding: 5px 30px;
+	background: #8500D1;
+	transition: 0.2s;
+}
+
+.popup1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup3 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup4 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup5 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup6 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-form {
+  margin-top: 30px;
+  padding: 0;
+  text-align: justify;
+}
+.popup-close {
+  position: absolute;
+  top: -18px;
+  right: -20px;
+  width: 20px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: #ffffff;
+}
+.popup-content {
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 40px 70px;
+}
+.popup-header {
+  font-weight: bold;
+}
+
+
 
 @media (max-width: 1199px){
 	section{
