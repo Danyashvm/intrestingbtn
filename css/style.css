@@ -84,6 +84,7 @@ header{
 }
 .smile img{
 		height: 180px;
+		padding-right: 30px;
 		transition: 0.2s;
 }
 .smile img:hover{
@@ -280,11 +281,12 @@ header{
 }
 .video video{
 	height: 530px;
+	border-radius: 10px;
 }
 
 
 .footer{
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
 }
 .footerlogo{
 	text-align: center;
@@ -302,6 +304,9 @@ header{
 	section{
 		height: 140vh;
 	}
+	.minicollage img{
+		height: 202.5px;
+	}
 	/*.sliderimg{
 		position: relative;
 		left: 0;
@@ -314,11 +319,12 @@ header{
 			display: none !important;
 		}
 	}
-	/*.sliderimg{
-		position: relative;
-		left: 0;
-		width: 412px;
-	}*/
+	.minicollage img{
+		height: 301px;
+	}
+	.mediatext p{
+		width: 400px;
+	}
 }
 @media (max-width: 767px){
 	.college{
