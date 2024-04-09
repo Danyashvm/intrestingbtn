@@ -15,6 +15,16 @@ header{
 .bgb{
 	background: #18191f;
 }
+.header{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 43px;
+	font-weight: bold;
+}
+.header-light{
+	color: #fff;
+}
 .button{
 	margin-top: 170px;	
 	text-align: center;
@@ -237,7 +247,7 @@ header{
 }
 .popup-close {
   position: absolute;
-  top: -18px;
+  top: -25px; 
   right: -20px;
   width: 20px;
   text-align: center;
@@ -259,7 +269,28 @@ header{
   font-weight: bold;
 }
 
+.video{
+	text-align: center;
+}
+.video video{
+	height: 530px;
+}
 
+
+.footer{
+	background: rgba(0,0,0,0.3);
+}
+.footerlogo{
+	text-align: center;
+}
+.footerlogo img{
+	height: 60px;
+}
+.footertext{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 11px;
+}
 
 @media (max-width: 1199px){
 	section{
@@ -277,15 +308,19 @@ header{
 			display: none !important;
 		}
 	}
-	.college{
-		display: none;
-	}
 	/*.sliderimg{
 		position: relative;
 		left: 0;
 		width: 412px;
 	}*/
 }
+@media (max-width: 767px){
+	.college{
+		display: none;
+	}
+}
+
+
 
 /*Анимация заголовка меню*/
 span[class^="l"] {
