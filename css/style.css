@@ -298,8 +298,35 @@ header{
 	padding-top: 11px;
 }
 
+
 .fonwoman{
 	background: #18191f;
+	padding-bottom: 60px;
+}
+.womanheader{
+	text-align: center;
+	font-size: 46px;
+	padding: 50px 0;
+}
+.womanbtn{
+	text-align: center;
+}
+.womanbtn button{
+	background: #F1DBEE;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.womanbtn button:hover{
+	background: #F2B4EA;
+}
+.womanclick img{
+	width: 270px;
+}
+.biowomanlogo img{
+	padding: 20px;
+	height: 290px;
+	width: 290px;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 @media (max-width: 1199px){
