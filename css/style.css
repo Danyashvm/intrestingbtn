@@ -298,6 +298,10 @@ header{
 	padding-top: 11px;
 }
 
+.fonwoman{
+	background: #18191f;
+}
+
 @media (max-width: 1199px){
 	section{
 		height: 140vh;
