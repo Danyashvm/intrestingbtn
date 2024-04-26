@@ -2,8 +2,11 @@
 	height: 100vh;
 }*/
 header{
+	
 	height: 100px;
 	background: rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 }
 .bgl{
 	height: 50vh;
@@ -303,6 +306,9 @@ header{
 	background: #18191f;
 	padding-bottom: 60px;
 }
+.fonwomanlight{
+	background: #f5f5f5;
+}
 .womanheader{
 	text-align: center;
 	font-size: 46px;
@@ -310,6 +316,7 @@ header{
 }
 .womanbtn{
 	text-align: center;
+	padding-bottom: 160px;
 }
 .womanbtn button{
 	background: #F1DBEE;
@@ -317,9 +324,6 @@ header{
 }
 .womanbtn button:hover{
 	background: #F2B4EA;
-}
-.womanclick img{
-	width: 270px;
 }
 .biowomanlogo img{
 	padding: 20px;
