@@ -113,7 +113,6 @@ header{
 
 .college{
 	min-height: 100px;
-	display: inline-block;
 	float: right;
 	position: relative;	
 }
