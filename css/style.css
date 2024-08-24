@@ -326,6 +326,24 @@ header {
 		width: 412px;
 	}*/
 }
+.auto-block {
+  border: 2px solid #000000;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.auto-block p {
+  width: 600px;
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+.auto-block img {
+  width: 620px;
+  vertical-align: bottom;
+  padding-bottom: 40px;
+}
 @media (max-width: 991px) {
   .button iframe {
     display: none !important;
