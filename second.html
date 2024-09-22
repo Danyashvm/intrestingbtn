@@ -116,6 +116,35 @@
 			</video>
 		</div>
 	</section>
+	
+	<section class="bglb">
+		<div class="toggle-master">
+			<h2>Выберите, как бы вы хотели чтобы мы снимали контент</h2>
+			<div class="toggle-container">
+			<input type="checkbox" id="good" class="toggle">
+			<label for="good" class="label">
+				<div class="ball"></div>
+			</label>
+			<span>Качественно</span>
+			</div>
+
+			<div class="toggle-container">
+			<input type="checkbox" id="cheap" class="toggle">
+			<label for="cheap" class="label">
+				<div class="ball"></div>
+			</label>
+			<span>Часто</span>
+			</div>
+
+			<div class="toggle-container">
+			<input type="checkbox" id="fast" class="toggle">
+			<label for="fast" class="label">
+				<div class="ball"></div>
+			</label>
+			<span>Смешно</span>
+			</div>
+		</div>
+	</section>
 
 	<div>
 		<div class="container">
@@ -342,75 +371,6 @@
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>	
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
-    <script>
-    	$(document).ready(function(){
-	    	$('.popup1-btn').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup1').fadeIn('fast', function(event) {
-	          });
-	        });
-	        $('.popup-close').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup1').fadeOut('fast', function(event) {
-	          });
-	        });
-
-	        $('.popup2-btn').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup2').fadeIn('fast', function(event) {
-	          });
-	        });
-	        $('.popup-close').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup2').fadeOut('fast', function(event) {
-	          });
-	        });
-
-	        $('.popup3-btn').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup3').fadeIn('fast', function(event) {
-	          });
-	        });
-	        $('.popup-close').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup3').fadeOut('fast', function(event) {
-	          });
-	        });
-
-	        $('.popup4-btn').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup4').fadeIn('fast', function(event) {
-	          });
-	        });
-	        $('.popup-close').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup4').fadeOut('fast', function(event) {
-	          });
-	        });
-
-	        $('.popup5-btn').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup5').fadeIn('fast', function(event) {
-	          });
-	        });
-	        $('.popup-close').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup5').fadeOut('fast', function(event) {
-	          });
-	        });
-
-	        $('.popup6-btn').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup6').fadeIn('fast', function(event) {
-	          });
-	        });
-	        $('.popup-close').on('click', function(event){
-	          event.preventDefault();
-	          $('.popup6').fadeOut('fast', function(event) {
-	          });
-	        });
-			  $('.slider').slick();
-		});
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
